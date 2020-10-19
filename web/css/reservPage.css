@@ -1,0 +1,50 @@
+.reg-form{
+            padding: 5% 0% 5% 0%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        .text{
+            width: 100%;
+            border-style: none;
+            border-radius: 10px;
+            background: #FDD5C8;
+            padding: 2%;
+        }
+        .error{
+            color: red;
+            font-size: 10px;
+        }
+    	.butt {
+            /*margin-left: 10%;*/
+            border-style: none;
+            border-radius: 10px;
+            background:#FFCAB9;
+            color: #5C3F5A;
+            padding: 2% 5% 2% 5%;
+            font-size: 1.5em;
+            transition-duration: 0.5s;  
+        }
+        .butt:hover{
+            background: #5C3F5A;
+            color: #FAF2E8;
+            transform: scale(1.1);  
+            transition-duration: 0.5s;      
+        }
+    	.title-block{
+            margin-top: 5%;
+    		padding: 2% 5% 2% 5%;
+            border: 15px solid #FDD5C8;
+    	}
+    	.title-block h1{
+	   		font-size: 4em;
+    	}
+    	.title-block h3{
+    		font-size: 2em;
+    	}
+    	.dateprice{
+    		padding-top: 3%;
+    		display: flex;
+    		/*text-align: justify;*/
+    		justify-content: space-between;
+    	}

@@ -1,0 +1,55 @@
+.name-block{
+	padding:  2% 2% 2% 0;
+	margin: 5% 0 1% 0;
+	width: 80%;
+	margin-left: 10%;
+}
+.name-block h1{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+/*///////////////////////////////////////////////*/
+
+	    .comment-list{
+	    	background-color: #FDD5C8;
+	    	width: 80%;
+	    	margin-left: 10%;
+	    	padding: 2%;
+	    	margin-bottom: 15px;
+	    }
+	    .comment-list h4{
+	    	float: left;
+	    	color: #ffa98f;
+	    }
+	    .comment-list p{
+	    	font-size: 1.5em;
+	    	text-align: left;
+	    	padding-left: 15%;
+	    }
+	    .comment-form{
+	    	width: 80%;
+	    	margin-left: 10%;
+	    }
+	    .container{
+	    	/*width: 100%;*/
+	    }
+
+	            .butt {
+            border-style: none;
+            border: 2px solid #FFCAB9 ;
+            background: none;
+            /*border-radius: 10px;*/
+            /*background:#fff9c4 ;*/
+            color: #5C3F5A;
+            padding: 2% 5% 2% 5%;
+            font-size: 1.5em;
+            transition-duration: 0.5s;  
+            margin-bottom: 5%;
+        }
+        .butt:hover{
+            background:#5C3F5A;
+            color: #5C3F5A;
+            transform: scale(1.02);  
+            transition-duration: 0.5s;      
+        }

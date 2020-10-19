@@ -1,0 +1,21 @@
+		footer{
+			display: inline-block;
+			width: 100%;
+			height: 100px;
+			background-color: #5C3F5A;
+			padding-top: 2%;
+			padding-bottom: 1%;
+		}
+		.socnetwork{
+			/*display: flex;*/
+			float: right;
+			margin-right: 0px;
+			padding-right: 2%;
+		}
+		.socnetwork img{
+			width: 50px;
+			height: 50px;			
+		}
+		.socnetwork img:hover{
+			transform: scale(1.05);		
+		}

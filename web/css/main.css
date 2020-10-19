@@ -1,0 +1,154 @@
+.search{
+  margin-left: 36%;
+  width: 40%
+}
+    	.myimg{
+    		/*filter: blur(4px) ;*/
+    		filter: brightness(50%);
+    	}
+		.mainText{
+    		position: absolute;
+    		left: 20%;
+    		top: 30%;
+    		
+    		/*text-align: center;*/
+    	}
+    	.mainText  article {
+    		font-family: "Montserrat Alternates", sans-serif;
+    		font-size: 3em;
+    		font-weight: bold;
+    		color: white;
+    		text-shadow: 10px 10px 10px black;
+    	}
+    	.mainText > p {
+    		margin-top: 3%;
+    		width: 50%;
+    		font-family: "Montserrat Alternates", sans-serif;
+    		font-size: 1em;
+    		font-weight: bold;
+    		color: white;
+/*    		text-shadow: 10px 10px 10px black;
+*/    	}		
+		.pink-block{
+			width: 100%; 
+			height: 100px; 
+			background-color: #FDD5C8;
+		}
+		.banner-rass{
+			padding-top: 5%;
+			display: flex;
+		}
+		.banner{
+			width: 60%;
+			height: auto;
+			padding-left: 7.5%;
+			background-color: white;
+			/*padding-top: 5%;*/
+		}
+
+		.rassylka{			
+			background-color: #FDD5C8;
+			width: 40%;
+			height: auto;
+			font-size: 2em;
+			text-align: center;
+		}
+		.rassylka > p {
+			padding-top: 5%;
+			padding-bottom: 2%;
+		}
+		.rassylka > input {
+			width: 70%;
+			border-radius: 25px;
+			border-style: none;
+			background-color: #FFE6DE;
+		}
+		.news-block{
+			/*border: 5px solid red;*/
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+		.main-news{
+			/*border: 5px solid red;*/
+			padding-top: 5%;
+		}
+		.img-news{
+			overflow: hidden;
+
+		}
+		.img-news img{
+			transition-duration: 0.5s;	
+			float: right;
+		}
+		.img-news img:hover{
+			transition-duration: 0.5s;	
+			transform: scale(1.5);
+			filter: brightness(0.8);
+		}
+/*		.news-cont{
+			background-color: #FDD5C8;
+			text-align: left;
+			padding: 5% 10% 0 10%;
+			transition-duration: 0.5s;	
+			height: 100%;
+		}
+		.news-cont:hover{
+			background-color: #FFCAB9;
+			transition-duration: 0.5s;	
+		}*/
+		.news-cont > h1{
+			font-size: 2em;
+		}
+		.news-cont > p{
+			font-size: 1em;
+			padding-top: 7%;
+			padding-bottom: 2%;
+		}
+		.news-cont > a{
+			font-size: 1em;
+			color: #5C3F5A;
+		}
+		.dateprice{
+    		display: flex;
+    		justify-content: space-between;
+    	}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) 
+	    {
+	    	.banner{
+	    		display: none;
+	    	}
+	    	.mainText{
+	    		position: relative;
+	    		font-size: 1em;
+	    		left: 0;
+	    		
+	    		text-align: center;
+	    	}
+	    	.pink-block{
+	    		display: none;
+	    	}
+	    	.mainText p{
+	    		display: none;
+	    	}
+	    	.rassylka{
+	    		width: 100%;
+	    	}
+	    }
+
+
+
+
+
+/*@font-face
+		{
+			font-family: "ofont.ru_VillaPhelomena";
+			src: url("font/ofont.ru_VillaPhelomena.ttf") format("truetype");
+			font-style: normal; 
+			font-weight: normal; 
+		}*/
+    	/*.body{
+    		background: #FAF2E8;
+    		color: #5C3F5A;
+    		font-family: ofont.ru_VillaPhelomena;
+    	}*/

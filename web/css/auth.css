@@ -1,0 +1,86 @@
+.cent{
+            display: flex;
+            width: 100%;
+            padding: 5% 0 5% 10%;
+        }
+        .reg-form{
+    		width: 40%;    
+            background-color:#FFCAB9 ;
+            padding: 5%;
+            margin: 5% 0 5% 30%;
+    		color: #5C3F5A;
+    		text-align: center;
+        }
+        .img-back{
+            filter: opacity(0.5);
+            /*float: right;*/
+            padding-left: 10%;
+            width: 60%;
+            transition-duration: 0.5s;  
+
+        }
+        .img-back:hover{
+            filter: opacity(1);
+            transition-duration: 0.5s;  
+        }
+        /****** registration.php ********/
+        .check-block{
+        	text-align: left;
+        	padding-left: 15%;
+        }
+        /*******************************/
+        label{
+        	padding-top: 3%;
+        }
+        
+        .error{
+            color: red;
+            font-size: 10px;
+        }
+        h3{
+            font-size: 3em;
+        }
+        .text{
+        	width: 70%;
+            border-style: none;
+            border-radius: 10px;
+            background: #ffea00;
+            padding: 2%;
+        }
+        p{
+        	padding-left: 3%;
+        	font-size: 0.6em;
+        }
+        
+        .butt {
+            border-style: none;
+            border-radius: 10px;
+            background: #FFCAB9 ;
+            color: #5C3F5A;
+            padding: 2% 5% 2% 5%;
+            font-size: 1.5em;
+            transition-duration: 0.5s;	
+        }
+        .butt:hover{
+        	background: #5C3F5A;
+        	color: #FAF2E8;
+			transform: scale(1.1);	
+			transition-duration: 0.5s;		
+        }
+        @media only screen and (min-width : 320px) and (max-width : 480px){
+            .img-back{
+                display: none;
+            }
+            .reg-form{
+            width: 90%;
+            }
+        }
+
+
+
+        h5{
+  color: gray;
+  text-align: center;
+  padding: 5%
+  /*margin-left: 10%*/
+}

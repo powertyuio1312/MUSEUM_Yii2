@@ -1,0 +1,54 @@
+        .title-block{
+            margin-top: 3%;
+    		padding-top: 2%;
+    		padding-bottom: 2%;
+            background-color: #FDD5C8;
+    	}
+    	.title-block h1{
+	   		font-size: 3em;
+    	}
+    	.title-block h3{
+    		font-size: 1.5em;
+    	}
+        .main-row{
+            margin-bottom: 5%;
+            
+        }
+        .photo-img{
+            width: 100%;
+        }
+    	.ex-content{
+    		padding: 5% 5% 15% 0;
+    	}
+    	.ex-content p{
+    		font-size: 1.3em;
+    	}
+    	.dateprice{
+    		padding-top: 3%;
+    		display: flex;
+    		justify-content: space-between;
+    	}
+    	.butt_price{
+    		margin-top: 10%;
+    		display: flex;
+    		justify-content: space-between;
+    	}
+        .butt {
+            border-style: none;
+            border-radius: 10px;
+            background:#FFCAB9;
+            color: #5C3F5A;
+            padding: 2% 5% 2% 5%;
+            font-size: 1.5em;
+            transition-duration: 0.5s;  
+        }
+        .butt:hover{
+            background: #5C3F5A;
+            color: #FAF2E8;
+            transform: scale(1.1);  
+            transition-duration: 0.5s;      
+        }
+        .ex-content a{
+            font-size: 1.5em;
+            padding-right: 280px
+        }

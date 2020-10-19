@@ -1,0 +1,18 @@
+        .img-like{
+            width: 20px;
+            height: 20px;
+        }
+        .img-like:hover{
+            transform: scale(1.2);
+        }
+        .likesCount{
+        	color: #5C3F5A;
+            margin-left: 10px
+        }
+        .like-btn{
+            background: none;
+            border: none;
+        }
+        .like-btn:active, .like-btn:focus {
+            outline: none !important;
+        }
